@@ -27,9 +27,10 @@ function classificacaoImc(indice) {
 }
 
 const btnCalcular = document.querySelector('#calcular-imc');
-btnCalcular.addEventListener('click', function () {
+const item = btnCalcular.closest('.grupo');
 
-    var item = btnCalcular.closest('.grupo');
+btnCalcular.addEventListener('click', function () {
+    
     var peso = Number(item.querySelector('#input-peso').value);
     var altura = Number(item.querySelector('#input-altura').value);
 
