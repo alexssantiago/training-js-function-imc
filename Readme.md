@@ -1,3 +1,4 @@
-# Treino 1 JavaScript
+# Training functions in JavaScript
 
-Função simples para calcular IMC.
+1. Simple function to calculate imc
+2. Simple function to calculate grade average
